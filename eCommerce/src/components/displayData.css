@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    text-align: center;
+}
+#parent-container{
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+}
+#main-container{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+
+   
+}
+
+#container{
+    width: 300px;
+    height: 300px;
+    border:1px solid red;
+    margin: 15px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+
+}
+.img-box{
+    text-align: center;
+}
+.images{
+    width: 200px;
+    height: 250px;
+}
+.discription{
+   
+}
+#container:hover{
+    transform: scale(120%,120%);
+    overflow: visible;
+}
